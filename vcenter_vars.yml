@@ -1,0 +1,23 @@
+---
+# Global Settings
+- vcenter_server: 10.2.2.200
+- vcenter_user: pmamontov@vsphere.local
+- vcenter_pass: P@ssw0rd
+- datacenter: Datacenter
+- cluster: Cluster
+
+# ESXi settings
+- esxi_hostname: 10.2.2.203
+- esxi_username: root
+- esxi_password: P@ssw0rd
+
+# VM settings
+- vm_name: VM_ANSIBLE
+- template_name: ocp-rhel-template
+- datastore: vm-storage
+- network: vl-90
+- folder: /
+- dns_server: 172.16.90.200
+
+# Snapshot settings
+- snapshot: fresh_installation
